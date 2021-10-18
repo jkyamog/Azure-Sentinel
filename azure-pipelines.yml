@@ -3,13 +3,13 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-#name: "Azure Sentinel Validations"
+name: "Azure Sentinel Validations"
 
-#trigger:
-#  - master
+trigger:
+  - master
 
-#jobs:
-#- template: .azure-pipelines/detectionsValidations.yaml
+jobs:
+- template: .azure-pipelines/detectionsValidations.yaml
 #- template: .azure-pipelines/detectionTemplateSchemaValidation.yaml
 #- template: .azure-pipelines/kqlValidations.yaml
 #- template: .azure-pipelines/NonAsciiValidations.yaml
