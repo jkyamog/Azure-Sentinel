@@ -8,7 +8,7 @@ name: "Azure Sentinel Validations"
 trigger:
   - master
 
-jobs:
+#jobs:
 #- template: .azure-pipelines/detectionsValidations.yaml
 #- template: .azure-pipelines/detectionTemplateSchemaValidation.yaml
 #- template: .azure-pipelines/kqlValidations.yaml
